@@ -17,9 +17,6 @@
 # Inherit art options
 include vendor/lucid/configs/art.mk
 
-# Fonts
-include vendor/lucid/configs/fonts.mk
-
 # Common overlays
 DEVICE_PACKAGE_OVERLAYS += vendor/lucid/overlay
 
