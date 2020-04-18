@@ -36,12 +36,6 @@ PRODUCT_PACKAGES += \
     Lato-Medium.ttf \
     Lato-Regular.ttf
 
-# Oneplus Slate
-PRODUCT_PACKAGES += \
-    SlateForOnePlus-Book.ttf \
-    SlateForOnePlus-Medium.ttf \
-    SlateForOnePlus-Regular.ttf
-
 # rubik family
 PRODUCT_PACKAGES += \
     Rubik-BoldItalic.ttf \

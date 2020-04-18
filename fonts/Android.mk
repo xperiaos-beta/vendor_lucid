@@ -40,11 +40,6 @@ font_src_files := \
     GoogleSans-Medium.ttf \
     GoogleSans-Regular.ttf
 
-font_src_files := \
-    SlateForOnePlus-Book.ttf \
-    SlateForOnePlus-Medium.ttf \
-    SlateForOnePlus-Regular.ttf
-
 $(foreach f, $(font_src_files), $(call build-one-font-module, $(f)))
 
 build-one-font-module :=
