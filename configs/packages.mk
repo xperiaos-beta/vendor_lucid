@@ -27,11 +27,9 @@ PRODUCT_PACKAGES += \
 
 # Lucid Packages
 PRODUCT_PACKAGES += \
-    LucidLauncher \
     Longshot \
     ThemePicker \
-    LucidThemesStub \
-    LucidSetupWizard
+    LucidThemesStub
 
 # Device Personalization Services
 PRODUCT_PACKAGES += MatchmakerPrebuilt

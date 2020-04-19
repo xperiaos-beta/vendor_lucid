@@ -46,7 +46,11 @@ ifndef LUCID_BUILDTYPE
   LUCID_BUILDTYPE := unofficial
 endif
 
-LUCID_TARGET_ZIP := lucid-$(LUCID_BUILD)-Q-$(LUCID_VERSION)-$(shell date -u +%Y%m%d)-$(LUCID_BUILDTYPE).zip
+LUCID_TARGET_ZIP := XperiaOS-$(LUCID_BUILD)-Q-$(LUCID_VERSION)-$(shell date -u +%Y%m%d)-$(LUCID_BUILDTYPE).zip
 
 # Props
 include vendor/lucid/configs/props.mk
+
+# Xperia
+include vendor/xperia/xperia.mk
+include vendor/gapps/config.mk
